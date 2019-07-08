@@ -43,8 +43,15 @@ that doing so ensures his product is not extraneous. Aside from this sounding
 extraordinarily self-serving, his logic failed to encompass the complexities of
 any first-world mixed economy in which governmental re-distributive societal
 goods form a substantial part of the expectation of most people. The irony in
-this is that Canadians health care  is one of those social goods to which he
+this is that Canadians health care is one of those social goods to which he
 fails to acknowledge in his zeal to raze the specter of Marx. 
+
+Peterson's provincialism in underwhelming as a totality. Aside from completely
+misunderstanding the Marxist doctrines of class are not inherent in people
+themselves, but to the system itself. That iss to say that any given person
+occupying any given place in a capitalist system will always act that given
+part. The owners of the means of production will always have the same incentives
+regardless of who arbitrarily ends here. 
 
 When Peterson talks about the inability to divide people between the oppressor
 and the oppressed he is basically rehashing axioms of intersectionality, that
