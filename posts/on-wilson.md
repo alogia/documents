@@ -42,13 +42,12 @@ find the best means for giving public criticism this control and for shutting it
 out from all other interference" as "self-government does not consist in having
 a hand in everything, any more than housekeeping consists necessarily in cooking
 dinner with one's own hands."[^1] Goldberg summates his view of Wilson later
-saying
-
-> "It is difficult to exaggerate Wilson's arrogant and sovereign contempt for
-> the system set up by the Founders." 
+saying, "It is difficult to exaggerate Wilson's arrogant and sovereign contempt for
+ the system set up by the Founders." 
 
 This is but quote mining to construct a Wilson which can be responsible for the
 rest of the century of growing governmental power. 
+
 
 <!-- Write here about governmental power as something which grew out of -->
 <!-- structual necessity. -->
@@ -67,7 +66,7 @@ nothing to be had in the end?
 > government in a single phrase than by calling it a government by the chairmen of
 > the Standing Committees of Congress." [^3]
 
-says Wilson. 
+says Wilson. This is the 
 
 [^1]: Jonah Goldberg, *Suicide of the West* (Crown Publishing Group, 2018)
 
