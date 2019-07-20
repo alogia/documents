@@ -60,13 +60,14 @@ second before the whole movement expended itself and faded into the
 background. Also, while the faithful were always fighting something of a
 rear-guard action and never really expected a Third Great Awakening, there was
 no sudden rise of the Antichrist to lead the masses into temptation.  In the
-end, like everything so seemingly existential in our modern limited attention
+end, like everything so seemingly existential to our modern limited attention
 spans, the ever restless cultural discourse changed topic and everyone forgot to
 consider religion at all.
 
-Church, the brick and mortar building which brings believers together in
-congress to reaffirm as public act their faith, has increasingly fallen out of
-favor. A corporate structure as scaffold in one's faith is on the wane as all
+Yet religion in America is in the process of remaking itself in ways no one
+guessed. Church, the brick and mortar building which brings believers together
+in congress to reaffirm as public act their faith, has increasingly fallen out
+of favor. A corporate structure as scaffold in one's faith is on the wane as all
 denominations are losing members year over year[^1].  Even among those who still
 claim adherence to a mainline denomination the feeling of the necessity of
 communion is less felt, of the common ritual as something foreign and strange.
@@ -95,68 +96,73 @@ interpretation, all was structures of power, and religion once more became
 flowers on the chain.  But this time something even deeper and more insidious
 than that of capital was at the source. 
 
-And so now a days, not much is said about one's faith in polite company, and not
-much is asked.  It is a Don't Ask, Don't Tell for the 21st century.  Being that
-at the same time some segment of America was to identify religion as a
-demarcator of structural oppression, a contrary mood was also afoot which wanted
-the liberation of all truth subject only to the belief in its reciprocal
-affirmation.  One was free, nay encouraged to believe what one will, but in a
-quiet personal way and to make no great claim of universal truths.  The critique
-of the Reformation was that it began with one Pope on the seven hills of Rome
-and ended with seven popes on every dunghill in Europe; now their is no need of
-popes as each is to find a spirituality not even bound by some allegiance to
-*sola scriptura* or any such stricture. 
+The Right had always used religion as something of a political tool being by
+nature a conservative institution, while the left has tip-toed in quiet ways
+around the issue and tried to kluge their agenda into some religious language so
+as to grant an indulgence to the progressive impulse. With so much of this at
+odds with the new Woke understanding and the rest for personal interpretation,
+now a days not much is said about one's faith in polite company, and not much is
+asked.  It is a Don't Ask, Don't Tell for the 21st century.  One was free, nay
+encouraged to believe what one will, but in a quiet personal way and to make no
+great claim of universal truths.  The critique of the Reformation was that it
+began with one Pope on the seven hills of Rome and ended with seven popes on
+every dunghill in Europe; now there is no need of popes as each is to find a
+spirituality not even bound by some restrictive allegiance to *sola scriptura*
+or any such stricture.  One now is to innovate if sincere. 
 
-
-Actually theological knowledge has always been something suspect[^3], with only
-white Evangelical Christians managing to get a score above 50% on questions of
-the Christian faith (all other demographics falling south of half).  Most
-congregants it would seem are happy with the conviction that someone, somewhere
-has worked out the details.  Since the advent of religious knowledge polling, I
-know of no country or religion which can claim its adherents show a real concern
-with any questions above the most basic, and even these are ask too much most of
-the time.  The only thing which seemed to invest a section of the US with a new
-thirst for religious knowledge was the momentary thrust of atheism into the
-cultural dialog.  For a moment both sides cracked open their bibles in an arms
-race that was never won by either while both claimed victory. And then the
-culture moved on bored with the debate.
+In some ways this is to admittedly overstate the case.  Actually theological
+knowledge has always been something suspect[^3], with only white Evangelical
+Christians managing to get a score above 50% in surveys of basic biblical and
+doctrinal knowledge (all other demographics falling south of half).  Most
+congregants have always, it would seem, been happy with the conviction that
+someone, somewhere has worked out the details and filled in the rest for
+themselves.  Since the advent of polling, I know of no country or faith which
+can claim its adherents show any real concern with questions above the most
+basic tenants, and even these are asking too much most of the time.  There is a
+fundamental reason why, if one has spent any time in church at all, that most
+preaching is forever on basic level which never seems to progress.  Like
+politics, one must stay on message, not deviate from the most over-simple of
+points, and repeat this ad nauseam if one hopes to make even a basic notion
+adhere in ones audience.  The only thing which seemed to invest a section of the
+US with a new thirst for religious knowledge was the momentary thrust of atheism
+into the dialog, and this only in some very limited way.  For that one second
+both sides cracked open their bibles in an arms race that was never won by
+either while both claimed victory.  And then everyone was bored with the debate
+once again.
 
 Religion may no longer be best word to describe the current diffusion of ideas.
-For most it now seems a grab bag of bits stolen from a myriad contexts.  Belief
-in heaven seems to track pretty consistently at 72% polled, while hell, it turns
-out, is less certain with only three quarters of those which also claim its
-opposite[^6].  God seems permanently popular[^7] at 80%, though I would posit
-more ill defined than before.  God has always been more an empty box for a
-concept than one in-and-of itself.  Jesus added a theory of mind this
-abstraction, which allowed a ready anthropomorphization. With only a slim
-majority associating God with the biblical account, the concrete notions of
-divinity slips back into the undefined. 
+For most it now seems a grab bag of bits stolen from a myriad contexts.
+Kierkegaard would complain of the ease in which the Danes held their faith, a
+passive belief which required no great struggle of self.  Today apathy extends
+to any kind of doctrine and instead floats lightly in some vagary which is no
+longer bounded by a larger theology, instead only subject to what one finds
+appealing.  Belief in heaven tracks pretty consistently at 72% polled in
+America, while hell, its more vindictive twin, is less certain with only three
+quarters of those affirming the first also affirm its opposite[^6].  God seems
+permanently popular[^7] at 80% polled, though I would suspect more ill defined
+than previous years.  Monotheism has always been more an empty box for a concept
+than one in-and-of itself.  Jesus added a theory of mind to the abstraction,
+allowing a ready anthropomorphization to fill out the bones. Yet at the same
+time, only a steadily declining slim majority associates God with the biblical
+account.  What is left of anything concrete when the humanity of God as trinity
+with Jesus fades, and the whole notion of the divine slips back into the
+undefined?
 
 One hears too frequently a flippant quoting of Chesterton, *“When men stop
 believing in God, they don't believe in nothing — they believe in
-anything.[^9]"* It may indeed be more true than one would think given a critical
-eye, but maybe also in a diffuse manner than an idiomatic understanding of
-religion.  John McWhorter writes of the way a certain demographic has re-imaged
-the essence of salvation into something which would be denied as such by all,
-having folded the faith so clandestinely as to be deniable. In as much as
-Protestantism is iconoclastic, desirous of the destruction of the symbols of
-faith and wishing to tear down the cathedrals and instead make god immanent,
-they have succeeded beyond their own imagining.
+anything.[^9]"* Yet it may indeed be true when given a wider lens for its object
+less beholden to an idiomatic understanding of 'religion' as practiced in times
+past.  John McWhorter writes in his essay *Antiracism, Our Flawed New
+Religion[^8]* of the way the most irreligious demographic has re-imaged the
+essence of sin and salvation into something which would probably be denied by
+all involved, but in reality folding in a faith so clandestinely as to be
+contested.  To the extent that Protestantism has always been iconoclastic,
+desirous of the destruction of the symbols of faith and wishing to tear down the
+cathedrals and instead make god immanent, they have succeeded beyond their own
+imagining, liberating religion from any form of doctrine and spreading it
+quietly out and into convictions based less in fideism to defined dogmas and
+more thought of as esoteric enlightenment which has no bounds. 
 
-In the middle-class city-dwelling bubble which I find myself, it is a rare event
-to find someone who would talk of their faith at, enough either to worry
-about the bible one way or the other.  Kierkegaard would complain of the ease in
-which the Danes held their faith, a passive belief which required no great
-struggle of self.  Today apathy extends to any kind of doctrine and instead
-floats lightly in some vagary which is no longer bounded by a larger
-theology. 
-
-Religion and politics are the two things which are most held close to the heart,
-to a sense of self, and yet neither one exists as a rational construct, but both
-must sit so close because they are in the end pure emotional constructs.  Both
-are close in way inexplicable to those who hold them, and this is why they are
-touchy.  It is as if asked to explain why one roots for the sports team one does;
-there is no answer, only an emotion inherent in the act.
 
 [^1]: [Gallup - Church attendance hits new two decade low](https://news.gallup.com/poll/248837/church-membership-down-sharply-past-two-decades.aspx)
 
