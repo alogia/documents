@@ -180,8 +180,7 @@ more thought of as esoteric enlightenment which has no bounds.
 
 [^7]: [Pew - Belief in God](https://www.pewforum.org/2018/04/25/when-americans-say-they-believe-in-god-what-do-they-mean/)
 
-[^8]: [Daily Beast - Antiracism, Our Flawed New
-Religion](https://www.thedailybeast.com/antiracism-our-flawed-new-religion)
+[^8]: [Daily Beast - Antiracism, Our Flawed New Religion](https://www.thedailybeast.com/antiracism-our-flawed-new-religion)
 
 [^9]: I hesitate to use quotes in this case, as no phrase such as this is found
     in any of Chesterton's works. While widely attributed to him, the specific
