@@ -3,7 +3,7 @@ layout: post
 title: Modern Religion
 date: 2019-07-10 Wed
 description: How modernity has changed the way in which religion is performed
-image: /assets/images/
+image: /assets/images/cathedral-candles.jpg
 author: Tyler Thomas
 tags: [theology, religion]
 ---
