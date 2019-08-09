@@ -1,9 +1,12 @@
-\documentclass[ebook, 11pt, openright, onecolumn]{memoir}
-
+\documentclass[ebook, 10pt, openright, onecolumn]{memoir}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage[final]{microtype}
 \usepackage{todonotes}
+
+
 
 \setlrmarginsandblock{0.15\paperwidth}{*}{1} % Left and right margin
 \setulmarginsandblock{0.2\paperwidth}{*}{1}  % Upper and lower margin
@@ -18,10 +21,51 @@
   {\savebox\mybox{#1}\begin{quote}}
   {\signed{\usebox\mybox}\end{quote}}
 
+
+\newlength{\drop}% for my convenience
+%% specify the Webomints family
+\newcommand*{\wb}[2]{\fontsize{#1}{#2}\usefont{U}{webo}{xl}{n}}
+%% select a (FontSite) font by its font family ID
+\newcommand*{\FSfont}[1]{\fontencoding{T1}\fontfamily{#1}\selectfont}
+%% if you don’t have the FontSite fonts either \renewcommand*{\FSfont}[1]{}
+%% or use your own choice of family.
+%% select a (TeX Font) font by its font family ID
+\newcommand*{\TXfont}[1]{\fontencoding{T1}\fontfamily{#1}\selectfont}
+%% Generic publisher’s logo
+\newcommand*{\plogo}{\fbox{$\mathcal{T}$}}
+
+\newcommand\td[1]{
+  \todo[inline]{
+     #1 
+  }
+}
+
+\newcommand\finish{\td{ ----- Finish this section -----}}
+
 \title{Moments}
 \author{Tyler Thomas}
 
-
+\newcommand*{\titleAT}{\begingroup  % Anatomy of a Typeface
+\FSfont{5bp} % FontSite Bergamo (Bembo)
+\drop=0.1\textheight
+\vspace*{\drop}
+\rule{\textwidth}{1pt}\par
+\vspace{2pt}\vspace{-\baselineskip}
+\rule{\textwidth}{0.4pt}\par
+\vspace{0.5\drop}
+\centering
+{\FSfont{5ml} % FontSite Mona Lisa
+\Huge MOMENTS}\\[0.5\baselineskip]
+{\FSfont{5ml}
+\Large a memoir}\par
+\vspace{0.25\drop}
+\rule{0.3\textwidth}{0.4pt}\par
+\vspace{\drop}
+{\Large \scshape Tyler Thomas}\par
+\vfill
+{\large\scshape $T^2$ Press}\par
+\vspace*{\drop}
+\endgroup}
 
 
 \let\cleardoublepage\clearpage
@@ -29,8 +73,9 @@
 %%% BEGIN DOCUMENT
 \begin{document}
 
-
-\maketitle
+\pagestyle{empty}
+\titleAT
+\clearpage
 
 \frontmatter
 
@@ -39,17 +84,14 @@
 \begin{flushleft}
   \textit{Moments}
   © COPYRIGHT Tyler Thomas
-  
+
+  2019
   
   ISBN--INFO
-  
+
   ISBN--13: 
   \bigskip
 
-
-
-  
-  
   ALL RIGHTS RESERVED
   
   
@@ -68,24 +110,27 @@
 
 
 I remember the desert most.  Days of walking down roads which led nowhere in the
-hot sand and silence, my form of nihilism.  I would walk with water always, big
-jugs that I would lug along which would start with ice and slowly warm to tepid,
-and then the hot before I could quaff enough to sate the heat which dripped down
-my legs and dried crisp and salty on my neck.  Yet it didn't matter.  Nothing
-mattered out there except to keep going, to stay in motion for its own sake.
-There was nothing else to do.  After school, after work, on the weekends I would
-always seem to wander off a bit farther, never wanting to turn back.  Walking
-was meditation, a activity to involve nothing but that one action in the legs.
-It was a escape in slow motion.  Cast out into this distances in some
-omphalocentric perambulation, I would in the end always arrive back where I
-begun both in mind and body, back at my house, an old single wide trailer with
-wall of faded and broken paneling and a roof with tires on the top for a reason
-I never knew and never asked.  The front door faced a view miles in size, and I
-would stand on the creaking gray wooden porch and contemplate the mountains
-distant, ever inviting me to their feet for no purpose. 
+hot sand and silence, my form of nihilism.  Whole days I would be gone, starting
+in the comparative cool of the morning and returning as the sun set over a flat
+horizon an incomparable distance away.  After school, after work, on the
+weekends I would always seem to wander off a bit farther, never wanting to turn
+back.  I would walk with water always, big jugs that I would lug along which
+would start with ice and slowly warm to tepid, and then the hot before I could
+quaff enough to sate the heat which dripped down my legs and dried crisp and
+salty on my neck.  Yet it didn't matter.  Nothing mattered out there except to
+keep going, to stay in motion for its own sake.  There was nothing else to do.
+Walking was meditation, a activity to involve nothing but that one action in the
+legs.  It was a escape in slow motion.  In the desert one could think and feel
+and contemplate, and it was at the same time the irrelevance of the quotidian in
+the silence and stillness of the terrain.  
 
-I had not always wandered
-\todo{Fill this out}
+Casting out into this distances in some omphalocentric perambulation, I always
+arrive back where I begun both in mind and body, back at my house, an old single
+wide trailer with wall of faded and broken paneling and a roof with tires on the
+top for a reason I never knew and never asked.  The front door faced a view
+miles in size, and I would stand on the creaking gray wooden porch and
+contemplate the mountains distant, ever inviting me to their feet for no
+purpose.
 
 The first landmark that one would find after leaving down the dirt road which
 stretched out from home was a dirt damn known as \textit{the pond}.  This
@@ -99,8 +144,36 @@ the sound of a life-cycle, the hurried croaking in the dark while the water
 drained away till only tadpoles remained frozen in clay, fossils which would
 fade in days and then be gone with no trace of the life dug beneath the baked
 earth.  A vast system of scales would appear where once water had been, and dry
-till each crack curled upward and detached like sun-burnt skin, a flaky forest
+till each crack curled upward and detached like sun-burnt skin, a flaky sea
 that crunched underfoot.
+
+That pond has always stuck with me, this one symbol of the desert, of my
+childhood taking the dogs out walking, our big lumbering dog named Spike and her
+tiny Chihuahua companion running hard by her side.  Spike would disappear for
+hours some times, and come home panting dirty with some adventure that only she
+would ever know. 
+
+\finish
+
+--- I could often be found next door digging up my uncle's yard, uprooting
+mesquite bushes, battling their spines, reworking the land to something less
+than wild.  My uncle and I had a struck a deal in which he would pay for my
+first computer (a Gateway machine with a 10G hard-drive, a CD burner, a floppy
+drive, and a dial-up modem) and I would landscape his yard at five dollars an
+hour over the next year.  This was the point that I really fell into my
+life-long love of computers.  I remember when I discovered the brilliant way in
+which a web page worked, the systematic markup and the intricate way that
+everything came together.  To think in the way that a computer thinks is to
+contort one's mind into the ultimate systematic methodology of deconstructing
+problems.  These problems are defined well enough on the computer, small
+microcosms with fixed inputs and fixed outputs.  Yet, this type of thinking is
+something which will scale upward also, structuring the ways that one thinks
+about more complex aspects of nature.  I am always interested in the lack of
+overlap between computer scientists and philosophers, as both seem to reinforce
+each other. To my knowledge, the only philosopher of note has been Mencius
+Moldbug \todo{Write about Moldbug?}, computer scientist and radical political
+theorist.
+\finish
 
 Seven years I was home-schooled before I had taken the plunged and gone back to
 public high-school starting freshman year.  It was a year of great angst and
@@ -109,10 +182,137 @@ had been one familial, that of cousins and uncles primarily outside the nucleus
 of mother and sister.  I would ramble between houses and desert, video games and
 22 caliber rifles.  The heat was always present, a dry baking in the sun, in the
 sand, a brief reprieve of the pool or a sprinkler till once again the dry heat
-held me.  All this was my world till I turned fourteen and opened my world to a
-whole new host of lives which came and went in intersecting spirals.  
+held me.  All this was my world till I turned fourteen and it opened to a whole
+host of divergent lives which came and went in intersecting spirals.  The
+cousins had all faded, all graduated or moved away, the diffusion of life in
+full force.
 
+I met Tony sitting on the floor in an indoor basketball court.  This was Phys
+Ed, that awkward required class that all had to finally give themselves to.
+Tony, a strapping Irish boy ended on the floor next to me for our next set of
+push-ups.  Looking at my long hair and plaid attire (standard at the time), his
+first words were, ``Hey, hippy!''.  And thus began a friendship.
 
+Tony was the consummate extrovert who was always cultivating a network of
+connections.  He would befriend all those in his orbit, charming each with how
+comfortable he made himself in his own skin.  Good looking and well built, he
+worked on his bad-boy shtick constantly, always making sure to clarify how 
+
+\finish
+
+Tony wanted to go pick up a girl he had been seeing lately, some new momentary
+interest.  Tony never really dated girls so much as to have them around when in
+need of some entertainment.  He could find no common ground, could have no
+synonymous thoughts with this other sex, he having cultivated his bad-boy
+persona so well, that this would be a bridge too far, an admission of something.
+He would always make a point of reminding us, ``Bros before Hoes'', with such
+certainty that it would diffuse the problem that everyone else was perpetually
+single.  
+
+After we had kicked around the hack enough and had found a good high, I
+agreed and we drove across town.  Tony had a habit of knowing people across
+town, far away in other friend-groups that were beyond all of us but Tony.  And
+so I drove till we parked outside a generic middle-class home and out ran a girl
+who jumped in.
+
+\todo[inline]{Finish story here}
+
+Snider and I would skip school and drive out into the desert and play
+hackysack and smoke pot for hours till hunger and pain took us back to eat.
+Back at my house I would make a skillet overflowing with stacked red enchiladas,
+refried pintos, top in lettuce and tomatoes and sided with chips and toast with
+honey.  We would feast till we were both sated and unmovable and contemplate our
+day and try to forget the morrow.  
+
+---------
+
+Prom night the triad of Tony, Snider and I decide it was time instead for a boys
+night, a protest against our being single.  We would instead take the night by
+storm and have a party our own.  There are certain dates which are tyrannical in
+their implicit expectation.  As much as the idea is denounced or the holiday
+derided, the lack of a feeling, an experience, is felt a loss nonetheless.  It
+is to be sad for something one wants not to want.  Being alone on December 25th
+will always feel a magnitude more empty than any other day; and the same is true
+of those who try and deny Prom its due.
+
+We had passed money to the right person and ended with alcohol, a thing
+difficult to obtain normally.  After having scoured the town for parties, for
+things interesting and coming up short, we decided to go visit Paul who lived in
+the Porta-Potty at the park.
+
+The three of us had met Paul a month prior.  After a good hack session going
+late into the night, Tony took leave to relieve himself by visiting the line of
+Porta-Potties set shoddily at the edge of the parking lot, the solution to a
+broken bathrooms never repaired.  Tony, having approached the largest of the
+lot, one made for the possibly disabled or the odd family, threw open the door
+and started in only to be standing approximately on top of someone sleeping on
+the floor.  After both had let out the appropriate expletive laden sounds, with
+Tony having retreaded a good several yards in a motion not unlike teleportation,
+everyone stopped to take stock of what had just happened.  The commotion had
+brought myself and Snider over to have a look.  Tony gave us a recap of having
+just kicked a man lying on the floor of the blue toilet, and after a strained
+laugh, we conferenced as to what to do?  Was the guy drunk?  Was he dying?  Why
+was he there?  ``Well, better ask'', Tony decided for the lot of us, and once
+more approaching the potty knocked gently and bid the inhabitant a questioning
+hello.  The response was normal enough for a man found sleeping in a park in an
+extra-large portable toilet.  He even was nice enough to open the door after a
+strained exchange of greetings and we came to know his name as Paul.
+
+Paul was a man that looked like life hadn't given him a good day for a decade or
+more.  Wearing dirty stain sweatpants and turtleneck fashionable for the 50s, he
+told us of himself.  A man more in body than in mind, he seemed in a cycle of
+the street.  His last attempt to find four walls not of plastic ended when his
+last check was mugged, leaving him again to return to his Porta-Potty.  A simple
+man, torn to pieces by life, left to the vicissitudes un-understandable to a
+mind like his. Not only was it his mind, but also his body that had the worst of
+it, with him missing a leg. Or such was what we assumed given his awkward gate
+and the odd \textit{swoooshing} sound of a compressing hinge emanating from the
+pants hiding his knee-like apparatus as he walked.  We bought him Taco Bell and
+wished him well, for what else could we do?
+
+Paul was the poor \textit{reprobatus} of some Calvinist deity, someone too low
+in life to ever find a salvation.  These are the un-elect whom one feels helpless to
+help, Paul floating in a world too far away to ever find his way back, in some unjust
+judgment too hard for us to contest, too complicated for our own lives filled
+already.  We drove away talking in low tones about how life can take a person to
+such lows, unimaginable to us.  It was then that we decide on the one small
+step, that one thing we could do for us as much as Paul, was to buy him a bungee
+cord to keep his door closed at night.  The following day, we went on a mission
+to the nearest home store to get this ersatz lock, gifting it to him with
+several tacos and a twenty dollar bill.
+
+It was too this Paul that we went with beer and pot and tacos in hand.  As it
+turned out, Paul was nowhere to be found, and would never be found by us again.
+We ate his Tacos and set up in the park anyway,
+
+\todo[inline]{Finish tree-humping story}
+
+High-school is the age which one can still be said to have `promise', some
+mystical check to cash in the future.  My life at this time rode always two
+parallel paths, one of promise, and one of dissolution.  The last year of
+high-school I fought for an extra Advanced Placement class, a fifth
+college-level chemistry instead of a standard four class semester, or the two
+classes I needed to graduate. This is called, ``being an over-achiever.''  Yet,
+my days were spent mostly in debauch, in search of the good time of drugs
+and dissipation.  I would come to class high most mornings having not done my
+homework.  I made no apologies, took zeros on the work and got As on tests, and
+generally acted like I didn't care a whole lot.  I had always harbored a secret
+comfort of being certain I was the smartest student in most rooms I entered.
+To ensure I never had to  test the issue, I held my grades lightly, uncaringly
+as a shield.  
+
+The economies of public schools are so very different from their purported
+mission.  Those who are good at learning the material of which most classes
+consist is something disincentivized by the majority of one's peers.  And this
+is the paradox, the difference that one must always split between that of the
+peer-group, and then that of the institution.  My game was to play both sides of
+the field, to be both the rebel and the scholar.  To find approbation on both
+sides and not have to choose.
+
+Was it this that led to the great discovery of my youth, that I had to break all
+molds if I was to not be found lacking in some metric.  I would break the
+meter, reform the measurements, and by this I would avoid judgment, for to what
+standard could I be held?  
 
 \chapter{Adobe}
 \label{cha:adobe}
@@ -160,9 +360,95 @@ experiment with life and cast aside all expectation and run headlong into some
 unknown.  I would not call this finding the authentic as Sarte would, but
 instead call it play.
 
+The human is an amazingly adaptable beast.  The patterns of life necessary for
+forest living are all in the end completely manageable.  One's days become
+structured just as do all other lives.  There is an inversion which happens, the
+hard things becoming easy and the easy becoming hard.  Water becomes something
+precious, not had without a huge investment in time and effort.  Yet one has not
+to worry about paying the water bill, or of the piping in the house, or of water
+the plants in the yard.  Now the difficulty is in the schlepping requisite
+bottles of the stuff to camp.  A calculus must always be made between the weight
+and the want.  To carry more than necessary is perverse, but to not carry enough
+is torture.  Most thing exist between these two points of the campers continuum,
+and one is always and forever reevaluating the point one thought ideal
+even yesterday. 
+
 I had move into a cloistered life distant from the everyday already.
+
+And so I stocked frozen food and learned the lingo of the bourgeois foodie. I
+learned that a boule and hummus made a good snack but if you had a bit of  
 
 \chapter{Hovel}
 \label{cha:hovel}
-\todo{Chapter about mail run.}
+
+I came back south uncertain, moving to a new city with nothing but the promise
+of a job I thought strange already.  I was to move mail up and down a mountain,
+starting in Alamogordo, a sleepy town of thirty-five thousand, and transport
+my cargo up highway 82 and stop at a series of post offices along the way,
+depositing a few thousand pounds of mail in the back rooms of each.  The evening
+would bring me back the opposite direction, this time to collect the days mail
+and unload at the main post office from which I had begun.  It was a job seven
+day a week, as the post office even sorts on Sundays.
+
+The second difficulty of this new gig was the way in which it split the day
+between two cities.  One had either to commute both ways a second time, or stay
+the night in one place, the day in the other.  Having no place to be and no
+vehicle to manage such a thing, I elected for the later.  I elected to stay the
+nights in Alamo not in a house or an apartment, which seemed a bit excessive for
+the time I was to spend there, and instead just elected to sleep in the desert.
+The summer made this easy, really only requiring that I buy a tarp to lay out on
+the sand.  I had bought an 10-speed old Reighley racing frame at a bike shop in
+town and had it stripped and remade as a beautiful ride.  A Selle Anatomica
+saddle, new cables, tires, spokes, chain, and grip tape.  After replacing the
+peddles with some old-school toe clips this became my new favorite ride.  There
+is something about tube-shifters which makes the riding experience special,
+something akin the driving a standard transmission car.  The act of changing
+gears becomes costly, and one does not do it with the same abandon that one does
+when riding with brifters.  If one must only move a finger to find that perfect
+tension in the peddles, to run that one easy crank RPM that is a practiced
+natural, it is to miss the beautiful complexity of the tube-shifting bike.
+
+This bicycle would ferry me up the hill to the edge of town where I could lock
+it to one of the last light posts before I was to hit the darkness of desert and
+open land.  Leaving the bike here for the night, I crossed the street and
+make my way up the hill opposite town.
+
+The Sacramento mountains flank Alamogordo, forming a backdrop to the west of
+town.  These mountains rise first roundly, then starkly five thousand feet above
+the city.  To the east, only the horizon hundreds of miles away forms the rim of
+a flat desert without differentiation.  In 1945 the US government built the
+largest military installation and missile range in the sprawling desert outside
+the largest gypsum deposit on earth, White Sands Monument.  Not long after,
+the first atomic bomb darkened the skies above barren basin. After the war
+was won, V2 rockets were refined at the
+
+\finish
+
+
+
+
+-----------
+
+\chapter{Stairs}
+\label{cha:stairs}
+
+The first thing one has to learn to do in Vietnam is cross the street.  It
+requires a confidence that does not come easily for the occidental just wondered
+off the plane.  Everything moves in ways that one can never quite quantify, a
+system still opaque in expectation and action.  Traffic is at once something one
+could reasonably call a free-for-all, or in the same moment something so planned
+out as a minutely choreographed set of intertwined actions.  In actuality is it
+the definition of the emergent system. Like the human body, with each part doing
+its small bit, something like a vast system emerges.
+
+Like most other countries, the associated food which comes to define the cuisine
+in foreign places is not the thing most eaten back at home. With Vietnam, its
+two most known exports, Pho and the Banh Mi, are only a small tip of a menu so
+vast as make these two items unimportant to the whole corpus.  Why is it that
+counties who rely on the import of food from the world likewise only has room
+for some small set of dishes?  Is it that there is no demand for the
+complexities, or is it that each new restaurant only copies the one before it
+until there is a self-enforce monopoly of only a select few dishes arbitrary in
+origin?
+
 \end{document}
