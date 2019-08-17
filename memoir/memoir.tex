@@ -5,8 +5,8 @@
 \usepackage[english]{babel}
 \usepackage[final]{microtype}
 \usepackage{todonotes}
-
-
+\title{Moments}
+\author{Tyler Thomas}
 
 \setlrmarginsandblock{0.15\paperwidth}{*}{1} % Left and right margin
 \setulmarginsandblock{0.2\paperwidth}{*}{1}  % Upper and lower margin
@@ -22,7 +22,7 @@
   {\signed{\usebox\mybox}\end{quote}}
 
 
-\newlength{\drop}% for my convenience
+\newlength{\drop}
 %% specify the Webomints family
 \newcommand*{\wb}[2]{\fontsize{#1}{#2}\usefont{U}{webo}{xl}{n}}
 %% select a (FontSite) font by its font family ID
@@ -34,46 +34,56 @@
 %% Generic publisher’s logo
 \newcommand*{\plogo}{\fbox{$\mathcal{T}$}}
 
-\newcommand\td[1]{
+\newcommand*\td[1]{
   \todo[inline]{
      #1 
   }
 }
 
-\newcommand\finish{\td{ ----- Finish this section -----}}
+%% Define some commands for marking up the chapters 
+\newcommand*\starbreak{\fancybreak*{* * *\\}}
+\newcommand*\finish{\td{ ----- Finish this section -----}}
 
-\title{Moments}
-\author{Tyler Thomas}
+
 
 \newcommand*{\titleAT}{\begingroup  % Anatomy of a Typeface
-\FSfont{5bp} % FontSite Bergamo (Bembo)
-\drop=0.1\textheight
-\vspace*{\drop}
-\rule{\textwidth}{1pt}\par
-\vspace{2pt}\vspace{-\baselineskip}
-\rule{\textwidth}{0.4pt}\par
-\vspace{0.5\drop}
-\centering
-{\FSfont{5ml} % FontSite Mona Lisa
-\Huge MOMENTS}\\[0.5\baselineskip]
-{\FSfont{5ml}
-\Large a memoir}\par
-\vspace{0.25\drop}
-\rule{0.3\textwidth}{0.4pt}\par
-\vspace{\drop}
-{\Large \scshape Tyler Thomas}\par
-\vfill
-{\large\scshape $T^2$ Press}\par
-\vspace*{\drop}
-\endgroup}
+  \thispagestyle{empty}
+  \FSfont{5bp} % FontSite Bergamo (Bembo)
+  \drop=0.1\textheight
+  \vspace*{\drop}
+  \rule{\textwidth}{1pt}\par
+  \vspace{2pt}\vspace{-\baselineskip}
+  \rule{\textwidth}{0.4pt}\par
+  \vspace{0.5\drop}
+  \centering
+  {\FSfont{5ml} % FontSite Mona Lisa
+    \Huge MOMENTS}\\[0.5\baselineskip]
+  {\FSfont{5ml}
+    \Large a memoir}\par
+  \vspace{0.25\drop}
+  \rule{0.3\textwidth}{0.4pt}\par
+  \vspace{\drop}
+  {\Large \scshape Tyler Thomas}\par
+  \vfill
+  {\large\scshape $T^2$ Press}\par
+  \vspace*{\drop}
+  \endgroup
+}
 
+
+%% At some point kill the chapter numbering in this pagestyle
+\addtopsmarks{headings}{}{
+  \createmark{chapter}{both}{shownumber}{}{. \ }
+}
+\pagestyle{headings}
 
 \let\cleardoublepage\clearpage
 
-%%% BEGIN DOCUMENT
+%%% ===================================================== %%%
+%%%                     BEGIN DOCUMENT                    %%%
 \begin{document}
 
-\pagestyle{empty}
+\pagestyle{headings}
 \titleAT
 \clearpage
 
@@ -102,10 +112,12 @@
 \clearpage
 
 \mainmatter
+
 \chapter{Desert}
 \label{cha:desert}
 \begin{aquote}{Latex Memoir Class Documentation}
-  \textbf{memoir}, \textit{n.} a fiction designed to flatter the subject and to impress the reader.
+  \textbf{memoir}, \textit{n.} a fiction designed to flatter the subject and to
+  impress the reader.
 \end{aquote}
 
 
@@ -127,10 +139,12 @@ the silence and stillness of the terrain.
 Casting out into this distances in some omphalocentric perambulation, I always
 arrive back where I begun both in mind and body, back at my house, an old single
 wide trailer with wall of faded and broken paneling and a roof with tires on the
-top for a reason I never knew and never asked.  The front door faced a view
-miles in size, and I would stand on the creaking gray wooden porch and
-contemplate the mountains distant, ever inviting me to their feet for no
-purpose.
+top for a reason I never knew and never asked.  We had torn all the carpeting
+out when we moved in and painted a giant ill-formed bird on the living room
+floor, everything else blue because that was some paint we had. The front door,
+glued two-by-sixes, faced a view miles in size, and I would stand on the
+creaking gray wooden porch and contemplate the mountains distant, ever inviting
+me to their feet for no purpose.
 
 The first landmark that one would find after leaving down the dirt road which
 stretched out from home was a dirt damn known as \textit{the pond}.  This
@@ -150,12 +164,38 @@ that crunched underfoot.
 That pond has always stuck with me, this one symbol of the desert, of my
 childhood taking the dogs out walking, our big lumbering dog named Spike and her
 tiny Chihuahua companion running hard by her side.  Spike would disappear for
-hours some times, and come home panting dirty with some adventure that only she
-would ever know. 
+hours and finally return home panting dirty with some adventure that only she
+would ever know, dirt and strange smells clinging to her sides.  Later I would
+go dove hunting out at that same pond, hiding in the bushes on the side, or
+ranging further in search of rabbits.
+
+Beyond the pond lay The Big Arroyo as we called it.  This formed the meeting
+point of many smaller channels streaming down from jagged peaks of the Organ
+mountains to the east.  After the rain, it would fill and become a roaring river
+for half a day taking rocks and bushes to some resting place I would never see.
+I would ride my bike to the top of the hill where the road intersected this
+nascent river, and steeling myself attempt to come crashing down the hill and
+into the swirling currents, pushing the peddles as hard as I could to get to the
+other side while grass and twigs strained themselves into my spokes and slowed
+my tires.  If the current was to strong, I would find myself holding with one
+hand to my bike as we both were taken down the stream and trying to struggle to
+the side.
+
+The Organ mountains were the orientation of everything, establishing direction
+in a land flat.  I once climbed over these mountains starting from my front
+door, half a day gone in reaching them, the rest to scramble up the cliffs and
+down the other side.  I thought I could return in the day still, but ended
+instead sleeping astride the mountain's saddle next to a smoky little fire while
+I shivered at its side.  I finally came home to a search party come from all
+around to save me, myself sunburned and dirty wandering up to see what all the
+fuss was about.  I still remember my mother come running out of the front door
+to hug me and make sure I was in one piece still.
 
 \finish
 
---- I could often be found next door digging up my uncle's yard, uprooting
+\starbreak
+
+I could often be found next door digging up my uncle's yard, uprooting
 mesquite bushes, battling their spines, reworking the land to something less
 than wild.  My uncle and I had a struck a deal in which he would pay for my
 first computer (a Gateway machine with a 10G hard-drive, a CD burner, a floppy
@@ -173,6 +213,7 @@ overlap between computer scientists and philosophers, as both seem to reinforce
 each other. To my knowledge, the only philosopher of note has been Mencius
 Moldbug \todo{Write about Moldbug?}, computer scientist and radical political
 theorist.
+
 \finish
 
 Seven years I was home-schooled before I had taken the plunged and gone back to
@@ -188,43 +229,76 @@ cousins had all faded, all graduated or moved away, the diffusion of life in
 full force.
 
 I met Tony sitting on the floor in an indoor basketball court.  This was Phys
-Ed, that awkward required class that all had to finally give themselves to.
-Tony, a strapping Irish boy ended on the floor next to me for our next set of
-push-ups.  Looking at my long hair and plaid attire (standard at the time), his
-first words were, ``Hey, hippy!''.  And thus began a friendship.
+Ed, that awkward required class that all had to finally give themselves to, very
+few willingly.  Tony, a strapping Irish boy just transferred sat on the floor
+next to me. This was the part of the class that our body-building teacher failed
+to learn the limits of the average high school student.  We did another set of
+push-ups. Between sets, looking at my long hair and plaid attire standard at the
+time, Tony's first words were, ``Hey\ldots hippy!''.  And thus began a strange
+friendship.
 
-Tony was the consummate extrovert who was always cultivating a network of
-connections.  He would befriend all those in his orbit, charming each with how
-comfortable he made himself in his own skin.  Good looking and well built, he
-worked on his bad-boy shtick constantly, always making sure to clarify how 
+Tony was less person than phenomenon.  The consummate extrovert, he began
+cultivating connections as soon as he arrived in a place, befriending all those
+in his orbit, charming each with how comfortable he was in his own skin.  Good
+looking and well built, he worked his bad-boy shtick constantly, that complete
+lack of caring, the strange attractive nihilism of our age.  
+
+His nihilism was earned.  Put into foster care at an early age, he had floated
+between houses, between moms, between other people's lives.  He had landed with
+a family consummately middle class with two dogs and no kids of their own.
+Terry took them as they where, well-intentioned and somewhat naive.  They would
+have him as that nice middle class son, a set piece in their lives.  Wasn't he
+the bad-boy though?  Before foster care his mom mad always told him, scolded
+him, made him feel he was that bad boy.  Now was he to be the good boy?  Was
+this not to lie to himself, to play act in a world not his own?
+
+And so he became the bad boy once more.  In the ferment of post-pubescent youth,
+there is a draw to the rebel, a rejection of the order one has really never
+known.  To be an antinomian was to have the ultimate individuation, to throw off
+even the society.  Everyone wishes to be their own Napoleon and never realizes
+they are only a Raskolnikov breaking something just to see what will happen. He
+was that fun force of chaos that pulls inward like a black hole, everyone
+falling into Tony and his thrills.
+
+Dropping out of school he took to check fraud after one day receiving a box of
+checks in the mail addressed to a past tenant.  This was not his apartment, but
+just that of a friend who let him stay. He would always find someone to let him
+stay, inhabit there living room, eat their food and do their drugs and remake
+their world into something like a nexus for all the traffic of Tony's life, he
+the spider who had so craftily spun this web of people who came in pilgrimage
+now.  He was the orchestrator, the center of this universe of people and
+connections that flowed around him, bringing him all the things he needed or
+wanted.  For years he rode couches and rode friends till the cops came and
+kicked everyone out, leaving Tony always and somehow to escape and find a new
+hole to squirrel himself into.  He was always fine --- till one day he wasn't.
+Walking out of a gas station, a squad car awaited him.  Later he would learn
+the man checking out before him was someone he had forged a check with weeks
+before.  Tony had forgotten, but the man hadn't.  Tony spent my senior year in
+jail.
+
+\starbreak
+
+Snider and I would sometimes skip school, escape the days expectations and
+instead drive out into that still desert.  One of us always had pot stashed
+among our things somewhere, a tiny plastic bag hidden and a pipe in the glove
+box. We would smoke and laugh and hackysack and hackysack for hours, circling
+each other like pugilists, making trails in the dirt as this tiny ball the only
+point of contact.  Finally hunger and pain would drive us from our trance and
+back to my house and the world once more.  I would make a skillet overflowing
+with stacked red enchiladas, refried pintos, top in lettuce and tomatoes and
+sided with chips and toast with honey.  We would feast till we were both sated
+and unmovable and contemplate our day and try to forget the morrow.
+
+Other nights we would go scavenge wood from creosotes bushes, build our little
+stash into a fire and sit the night around with Old English 40s and laugh and
+yell and scavenge for more wood in the dark till we gave it all up to unroll our
+sleeping bags and stay the night in the open sky and dream of nothing.  The
+morning was always gray in our haze with not a cloud in the sky.  
+
 
 \finish
+\starbreak
 
-Tony wanted to go pick up a girl he had been seeing lately, some new momentary
-interest.  Tony never really dated girls so much as to have them around when in
-need of some entertainment.  He could find no common ground, could have no
-synonymous thoughts with this other sex, he having cultivated his bad-boy
-persona so well, that this would be a bridge too far, an admission of something.
-He would always make a point of reminding us, ``Bros before Hoes'', with such
-certainty that it would diffuse the problem that everyone else was perpetually
-single.  
-
-After we had kicked around the hack enough and had found a good high, I
-agreed and we drove across town.  Tony had a habit of knowing people across
-town, far away in other friend-groups that were beyond all of us but Tony.  And
-so I drove till we parked outside a generic middle-class home and out ran a girl
-who jumped in.
-
-\todo[inline]{Finish story here}
-
-Snider and I would skip school and drive out into the desert and play
-hackysack and smoke pot for hours till hunger and pain took us back to eat.
-Back at my house I would make a skillet overflowing with stacked red enchiladas,
-refried pintos, top in lettuce and tomatoes and sided with chips and toast with
-honey.  We would feast till we were both sated and unmovable and contemplate our
-day and try to forget the morrow.  
-
----------
 
 Prom night the triad of Tony, Snider and I decide it was time instead for a boys
 night, a protest against our being single.  We would instead take the night by
@@ -281,13 +355,14 @@ cord to keep his door closed at night.  The following day, we went on a mission
 to the nearest home store to get this ersatz lock, gifting it to him with
 several tacos and a twenty dollar bill.
 
-It was too this Paul that we went with beer and pot and tacos in hand.  As it
+It was to this Paul we now went with beer and pot and tacos in hand.  As it
 turned out, Paul was nowhere to be found, and would never be found by us again.
-We ate his Tacos and set up in the park anyway,
+We ate his Tacos and set up in the park anyway, ate and smoked and drank and
+where happy in our youth and our debauch.
 
-\todo[inline]{Finish tree-humping story}
+\starbreak
 
-High-school is the age which one can still be said to have `promise', some
+High-school is the age which one can still be said to have ``promise'', some
 mystical check to cash in the future.  My life at this time rode always two
 parallel paths, one of promise, and one of dissolution.  The last year of
 high-school I fought for an extra Advanced Placement class, a fifth
@@ -316,11 +391,12 @@ standard could I be held?
 
 \chapter{Adobe}
 \label{cha:adobe}
+
 I came to Santa Fe following the whiff of truth.  I was subject to the mistake
 of all those who find philosophy for the first time; to think life really
-reducible to a predicate logic like Russel's \textit{Principia} such that if one
-were to follow it out far enough, there in the end would be some shinning Truth
-to calm that unnamed disquiet which pervades youth.  One cannot yet accept there
+reducible to a predicate logic like Russel's \textit{Principia}. It was only to
+follow it out far enough, and in the end would emerge some shinning Truth to
+calm that unnamed disquiet which pervades youth.  One cannot yet accept there
 are no answers, only experimentation, only questions fraught with unclear
 answers.  The tyranny of our freedom has yet to find us.
 
@@ -330,18 +406,28 @@ remake my life in this new place.  The problem was to split the difference
 between two emotions always operative at inflection points; that of finding some
 bit of the familiar to grab onto while at the same time jumping into the
 unknown.  Individuation comes in spurts, and the moment one moves from home
-is a maximal point of change with little left in the way of the familiar.  Yet
-youth loves adventure, 
+is a maximal point of change with little left in the way of the familiar. 
 
 One was only to ever increase oneself both in mind and body, not
 necessary in corpulence, but in ones adjuncts.  Accouterments all expanded
 oneself, a form of the extended phenotype which would push the self outward.
 
+I had a roommate from Seattle, a red-headed city boy named Roy who was always
+sure he's about to have a really good time.  After graduating from high school
+he had gone to India for several months traveling around in trains and feeling
+out of place entirely.  Coming back, he drove his 1954 Volvo out of the Seattle
+and East on a rode trip to circumnavigate the boarder of the country, sleeping
+in small town and parking lots and always pushing on to the next place.  He
+would tell stories of nights spent alone in dirty motels watching TV and
+drinking beer.
+
+\finish
+
 \chapter{Forest}
 \label{cha:forest}
 
 To live in the forest is to know oneself not part of nature.  It is be sure the
-universe has ends not your own.  Religion is waning in the West for a good
+universe has ends not for us.  Religion is waning in the West for a good
 reason; when most of the world seems made to cater to our whims what is there to
 remind us that we live only in a shell of our own creation.
 
@@ -370,13 +456,24 @@ the plants in the yard.  Now the difficulty is in the schlepping requisite
 bottles of the stuff to camp.  A calculus must always be made between the weight
 and the want.  To carry more than necessary is perverse, but to not carry enough
 is torture.  Most thing exist between these two points of the campers continuum,
-and one is always and forever reevaluating the point one thought ideal
-even yesterday. 
+and one is always and forever reevaluating the point one thought ideal even
+yesterday.
+\finish
 
-I had move into a cloistered life distant from the everyday already.
+
+It was over this summer I also picked up a job at Trader Joe's for the first
+time, a place whose gravitational pull I would find inescapable for the next
+decade.  Growing up in southern New Mexico, the cult of Joe had not yet made it
+that far south.  The company still was primarily based on the coasts, not yet
+moving inland more than in a odd city here or other. Santa Fe was one of these
+odd little outposts, no other stores existing in any nearby states excepting
+Arizona.  It was not for another decade that Texas  would get it's first
+store with Colorado following two years after that.
+
+\finish
 
 And so I stocked frozen food and learned the lingo of the bourgeois foodie. I
-learned that a boule and hummus made a good snack but if you had a bit of  
+learned that a boule and hummus made a good snack but if you had a bit of
 
 \chapter{Hovel}
 \label{cha:hovel}
@@ -421,19 +518,18 @@ largest military installation and missile range in the sprawling desert outside
 the largest gypsum deposit on earth, White Sands Monument.  Not long after,
 the first atomic bomb darkened the skies above barren basin. After the war
 was won, V2 rockets were refined at the
-
 \finish
 
+And so the days I was to live in this hovel, a half-build shed over a rotting
+travel trailer.  The axles had been taken off and the whole thing set on the
+ground, 
 
-
-
------------
 
 \chapter{Stairs}
 \label{cha:stairs}
 
 The first thing one has to learn to do in Vietnam is cross the street.  It
-requires a confidence that does not come easily for the occidental just wondered
+requires a confidence that does not come easily for the Occidental just wondered
 off the plane.  Everything moves in ways that one can never quite quantify, a
 system still opaque in expectation and action.  Traffic is at once something one
 could reasonably call a free-for-all, or in the same moment something so planned
