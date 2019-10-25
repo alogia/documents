@@ -8,14 +8,14 @@ author: Tyler Thomas
 tags: [politics, culture]
 ---
 
-We find ourselves at an asymptotic period of history where our morality exists layered
-upon two planes; one of those Platonic, the realm of ideals to which
+We find ourselves at an asymptotic period of history where our morality exists
+layered upon two planes; one of those Platonic, the realm of ideals to which
 humanity strives as a systematic theology, something complete and
 self-consistent. We live half the day in this world, and yet there is always the
 other; that of the evolutionary out of which we have sprung and the ways by
 which our biology drive us. We live on both these fronts in the battle for our
 morality and our sociability and strive for a reconciliation which is every nigh
-yet unhad. 
+yet unhad.
 
 We have come late to the notion that all cultures are, as we have believed long
 about men as abstraction, created equal. Equality of culture though is a
@@ -71,4 +71,7 @@ to its adherents and esoteric to the outsider. Culture is to assume before
 assumption and to inveigh against a question slipped too deep into the
 firmament. Only with another culture are we unable to create a narrative out of
 seemingly unrelated events, to pull a story which makes sense from the chaos and
-think ourselves a possible character in this history but for mere chance. 
+think ourselves a possible character in this history but for mere chance.
+
+As with all these notions, there has be constructed some vast difference between
+the dominant culture, and 

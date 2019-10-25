@@ -1,17 +1,24 @@
 ---
 layout: post
 title: The Central Question
-date: 2019-03-10
-description: The byproduct of centralization in our politics.
+date: 
+description: What does it mean for the world to become more centralized?
 image: /assets/images/
 author: Tyler Thomas
 tags: [politics]
 ---
 
+In the conservative sensibility there will always be bit of the Jeffersonian
+agrarianism. It is understandable being that The Big Sort
 Centralization is in the zeitgeist of today. All the world seems to be
 collecting itself into larger homogenes, both politically and culturally. Even
 language is subject to this sway, with Europe denuding itself of regional
-dialects in place of the acrolect and the national language.
+dialects in place of the acrolect and the national language. 
+
+
+Five million people each month move to the city in developing countries. The
+city is the ultimate idea of centralization, bringing together people by
+proximity and through this a cultural homogeneity. 
 
 Part of this centralization is out of necessity, the need to standardize in a
 world that produces at scale and in scales that span the globe. This
